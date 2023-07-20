@@ -11,5 +11,5 @@ const logger = winston.createLogger({
   ]
 });
 
-logger.log('info', 'Hello, this is a raw logging event',   { 'foo': 'bar' });
+logger.log('info', 'Hello, this is a raw logging event testing',   { 'foo': 'bar' });
 logger.log('info', 'Hello, this is a raw logging event 2', { 'foo': 'bar' });
